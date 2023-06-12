@@ -28,4 +28,6 @@ springdoc:
   swagger-ui:
     path: /myapi.html
 
+jwt:
+  secret: y4JPxJ1T/kUJtM7oT5BtIDovjWwFNpWt43js+U99w7VeEeikil+HhJoMsCWjH/MiFEZGMBVIzgipKwIGLlCiBA==
 
