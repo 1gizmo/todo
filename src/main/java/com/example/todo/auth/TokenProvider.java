@@ -8,7 +8,6 @@ import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.security.Keys;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.time.Instant;
@@ -21,7 +20,7 @@ import java.util.Map;
 @Service
 @Slf4j
 // 역활 : 토큰을 발급하고 , 서명명위조를 검사하는 객체
-public class ToKenProvider {
+public class TokenProvider {
 
     // 서명 사용할 값 (512바이트 이상의 랜덤 문자열)
    @Value("${jwt.secret}")

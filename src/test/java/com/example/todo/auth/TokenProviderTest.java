@@ -9,7 +9,7 @@ import java.util.Base64;
 
 import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest
-class ToKenProviderTest {
+class TokenProviderTest {
 
 
 
